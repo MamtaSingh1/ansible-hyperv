@@ -12,17 +12,3 @@ vms:
 
     src_vhd: "C:\\win2012r2-iis-gold.vhdx"
     dest_vhd: "C:\\Users\\Public\\Documents\\Hyper-V\\Virtual hard disks\\web-{{env}}.vhdx"
-
-  - type: db
-    name: "dbtest-{{env}}"
-   
-    cpu: 2
-    memory: 4096MB
-
-    network:
-     cidr_ip: 0.0.0.0/0
-      
-    network_switch: 'External Virtual Switch' 
-
-    src_vhd: "C:\\win2012r2-mssql-gold.vhdx"
-    dest_vhd: "C:\\Users\\Public\\Documents\\Hyper-V\\Virtual hard disks\\db-{{env}}.vhdx"
