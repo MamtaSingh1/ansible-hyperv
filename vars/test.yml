@@ -6,10 +6,7 @@ vms:
     memory: 4096MB
 
     network:
-      ip: 192.168.0.232
-      netmask: 255.255.255.0
-      gateway: 192.168.0.1
-      dns: 192.168.0.212
+      cidr_ip: 0.0.0.0/0
       
     network_switch: 'External Virtual Switch' 
 
@@ -23,10 +20,7 @@ vms:
     memory: 4096MB
 
     network:
-      ip: 192.168.0.233
-      netmask: 255.255.255.0
-      gateway: 192.168.0.1
-      dns: 192.168.0.212
+     cidr_ip: 0.0.0.0/0
       
     network_switch: 'External Virtual Switch' 
 
